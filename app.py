@@ -290,7 +290,7 @@ class App:
         self.app.queue(
             api_open=args.api_open
         ).launch(
-            share=args.share,
+            share=true,
             server_name=args.server_name,
             server_port=args.server_port,
             auth=(args.username, args.password) if args.username and args.password else None,
